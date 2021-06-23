@@ -96,13 +96,17 @@ function About() {
           <Card
             title="Tlenek wodoru"
             logo={<BiWater />}
-            animateCustom={controls}
+            // animateCustom={controls}
           />
-          <Card title="Oksydan" logo={<FaWater />} animateCustom={controls} />
+          <Card
+            title="Oksydan"
+            logo={<FaWater />}
+            //  animateCustom={controls}
+          />
           <Card
             title="Monotlenek diwodoru"
             logo={<GiWaterRecycling />}
-            animateCustom={controls}
+            // animateCustom={controls}
           />
         </div>
       </div>
