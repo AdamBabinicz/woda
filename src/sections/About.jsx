@@ -24,8 +24,8 @@ function About() {
           className="details"
           initial="hidden"
           animate="show"
-          animate={controls}
-          variants={reveal}
+          // animate={controls}
+          // variants={reveal}
           transition={{ delay: 0.1, stiffness: 300 }}
         >
           <Title title="Cicha woda brzegi ..." color="blue" />
