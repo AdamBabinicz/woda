@@ -1,0 +1,29 @@
+@import "../utils/colors.scss";
+
+.title {
+  margin-bottom: 2rem;
+  color: $buttonBlueColor;
+
+  h2 {
+    margin-bottom: 0.7rem;
+    font-size: xx-large;
+    color: $blueColor;
+  }
+  div {
+    height: 0.3rem;
+    width: 3rem;
+    border-radius: 0.1rem;
+  }
+  div .blue {
+    background: $headingColor;
+  }
+  div .pink {
+    background: $buttonPinkColor;
+  }
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
