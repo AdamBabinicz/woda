@@ -92,7 +92,11 @@ function About() {
           </em>
         </Popup>
         <div className="cards" ref={element}>
-          <Card title="Woda" logo={<GiWaterfall />} animateCustom={controls} />
+          <Card
+            title="Woda"
+            logo={<GiWaterfall />}
+            //  animateCustom={controls}
+          />
           <Card
             title="Tlenek wodoru"
             logo={<BiWater />}
