@@ -32,8 +32,11 @@ export const PopupInner = styled.div`
   background: #fff;
 
   @media screen and (max-width: 480px) {
-    background: red;
     max-width: 70%;
+
+    img {
+      width: 100%;
+    }
   }
 `;
 
@@ -52,9 +55,5 @@ export const Button = styled.button`
   @media screen and (max-width: 480px) {
     top: 4px;
     right: 4px;
-  }
-
-  img {
-    max-width: 100%;
   }
 `;

@@ -45,7 +45,9 @@ function Navbar() {
               <a href="#blog">Fazy</a>
             </li>
             <li>
-              <Button content="Kontakt" />
+              <a href="#footer">
+                <Button content="Kontakt" />
+              </a>
             </li>
           </ul>
         </div>

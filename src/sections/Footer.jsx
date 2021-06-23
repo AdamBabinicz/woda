@@ -13,7 +13,7 @@ function Footer() {
   const [element, controls] = useScroll();
 
   return (
-    <div className="footer-container" ref={element}>
+    <div className="footer-container" ref={element} id="footer">
       <div className="container">
         <div className="main-container">
           <motion.div
@@ -52,7 +52,7 @@ function Footer() {
                 <a href="#blog">Fazy</a>
               </li>
               <li>
-                <a href="#">Kontakt</a>
+                <a href="#footer">Kontakt</a>
               </li>
               {/* <li>
                 <a href="#">Blog</a>
