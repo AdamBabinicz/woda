@@ -21,8 +21,8 @@ function Blogs() {
       <div className="container">
         <motion.div
           className="title-container"
-          variants={textAnimation}
-          animate={controls}
+          // variants={textAnimation}
+          // animate={controls}
           transition={{ duration: 1 }}
         >
           <Title title="Fazy" color="blue" lineCenter={true} />
