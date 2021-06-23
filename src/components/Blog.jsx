@@ -11,8 +11,8 @@ function Blog({ image, title, subTitle, variants, animate, desc, par }) {
   return (
     <motion.div
       className="blog-container"
-      variants={variants}
-      animate={animate}
+      // variants={variants}
+      // animate={animate}
     >
       <div className="image">
         <img src={image} alt="Blog" />
@@ -26,7 +26,6 @@ function Blog({ image, title, subTitle, variants, animate, desc, par }) {
         </div>
         <button
           onClick={() => setButtonPopup(true)}
-          content=""
           color="inverse"
           icon={<HiOutlineArrowNarrowRight />}
         >
