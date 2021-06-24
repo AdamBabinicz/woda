@@ -7,7 +7,6 @@ import { FaWater } from "react-icons/fa";
 import { BiWater } from "react-icons/bi";
 import { GiWaterfall } from "react-icons/gi";
 import "../styles/sections/About.scss";
-import "../sections/About";
 import { reveal } from "../Animation";
 import { motion } from "framer-motion";
 import { useScroll } from "../components/useScroll";
