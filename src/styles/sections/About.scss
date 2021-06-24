@@ -56,7 +56,7 @@
       }
       .cards {
         grid-template-columns: 1fr;
-        background: $buttonBlueColor;
+        z-index: 999;
       }
     }
   }
