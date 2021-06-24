@@ -23,7 +23,7 @@ function Footer() {
             transition={{ duration: 0.5 }}
           >
             <BrandName isFooter={true} />
-            <p>Radom</p>
+            <p>Woda na Ziemi i w Kosmosie</p>
             <div className="mail">
               <input type="email" placeholder="Wpisz wiadomość" />
               <button>
@@ -57,12 +57,12 @@ function Footer() {
               {/* <li>
                 <a href="#">Blog</a>
               </li> */}
-              <li>
+              {/* <li>
                 <a href="#">Zasady i warunki</a>
               </li>
               <li>
                 <a href="#">Polityka prywatności</a>
-              </li>
+              </li> */}
             </ul>
           </motion.div>
           <motion.div
@@ -159,7 +159,7 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className="touch-section">
+            {/* <div className="touch-section">
               <div className="icon">
                 <FaPhoneAlt />
               </div>
@@ -169,8 +169,8 @@ function Footer() {
                   <a href="#">+91 123123123</a>
                 </div>
               </div>
-            </div>
-            <div className="touch-section">
+            </div> */}
+            {/* <div className="touch-section">
               <div className="icon">
                 <ImLocation />
               </div>
@@ -180,7 +180,7 @@ function Footer() {
                   <a href="#">32 StreetOne Boards, GJ 560123</a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
         <div className="copyright">
