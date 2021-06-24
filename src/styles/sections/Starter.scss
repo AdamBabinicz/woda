@@ -54,6 +54,9 @@
       grid-template-columns: 1fr;
       .content {
         margin-right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         h1 {
           font-size: 4rem;
         }
@@ -65,8 +68,8 @@
       .image {
         margin-left: 2rem;
         img {
-          height: 25rem;
-          width: 25rem;
+          // height: 25rem;
+          // width: 25rem;
         }
       }
     }
