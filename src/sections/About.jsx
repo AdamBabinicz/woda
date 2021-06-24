@@ -24,8 +24,8 @@ function About() {
           className="details"
           initial="hidden"
           animate="show"
-          // animate={controls}
-          // variants={reveal}
+          animate={controls}
+          variants={reveal}
           transition={{ delay: 0.1, stiffness: 300 }}
         >
           <Title title="Cicha woda brzegi ..." color="blue" />
@@ -92,25 +92,17 @@ function About() {
           </em>
         </Popup>
         <div className="cards" ref={element}>
-          <Card
-            title="Woda"
-            logo={<GiWaterfall />}
-            //  animateCustom={controls}
-          />
+          <Card title="Woda" logo={<GiWaterfall />} animateCustom={controls} />
           <Card
             title="Tlenek wodoru"
             logo={<BiWater />}
-            // animateCustom={controls}
+            animateCustom={controls}
           />
-          <Card
-            title="Oksydan"
-            logo={<FaWater />}
-            //  animateCustom={controls}
-          />
+          <Card title="Oksydan" logo={<FaWater />} animateCustom={controls} />
           <Card
             title="Monotlenek diwodoru"
             logo={<GiWaterRecycling />}
-            // animateCustom={controls}
+            animateCustom={controls}
           />
         </div>
       </div>

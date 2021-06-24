@@ -23,9 +23,9 @@ body::-webkit-scrollbar {
   background: #fff;
 }
 
-body::-webkit-scrollbar-thumb {
+/* body::-webkit-scrollbar-thumb {
   background: rgb(18, 18, 88);
-}
+} */
 
 html {
   scroll-behavior: smooth;
